@@ -7,6 +7,7 @@ Example use cases:
 
 ## Notes
 
+* The component is called "Splits Completed" in the "Information" group.
 * To add an ignored split, edit the cell to the right of the asterisk `*`.
 * To delete an ignored split, click the cell to the left of the split name and press the `Delete` key (not backspace!).
 * If you update the label and a run isn't ongoing, the label won't update until you either start a run or restart LiveSplit.

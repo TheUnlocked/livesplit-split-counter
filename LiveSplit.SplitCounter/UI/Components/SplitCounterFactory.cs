@@ -10,7 +10,7 @@ namespace LiveSplit.UI.Components
     public class SplitCounterFactory : IComponentFactory
     {
         // The displayed name of the component in the Layout Editor.
-        public string ComponentName => "Split Counter";
+        public string ComponentName => "Splits Completed";
 
         public string Description => "Displays the number of splits that have been completed.";
 
