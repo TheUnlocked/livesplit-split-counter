@@ -11,6 +11,7 @@ Example use cases:
 * To add an ignored split, edit the cell to the right of the asterisk `*`.
 * To delete an ignored split, click the cell to the left of the split name and press the `Delete` key (not backspace!).
 * If you update the label and a run isn't ongoing, the label won't update until you either start a run or restart LiveSplit.
+* Split names to ignore are case-sensitive. If multiple splits have the same name, there is no way to differentiate them.
 
 ## Releases
 
@@ -30,4 +31,4 @@ _Appearance in splits_
 
 You will need the LiveSplit source somewhere on your computer. Edit references in `LiveSplit.SplitCounter.sln` and `LiveSplit.SplitCounter.csproj` to point to the csproj in `LiveSplit.Core` and `UpdateManager`.
 
-Based on the tutorial at [https://gist.github.com/TheSoundDefense/cf85fd68ae582faa5f1cc95f18bba4ec](), so that may be useful as a reference.
+Based on the tutorial at [https://gist.github.com/TheSoundDefense/cf85fd68ae582faa5f1cc95f18bba4ec](https://gist.github.com/TheSoundDefense/cf85fd68ae582faa5f1cc95f18bba4ec), so that may be useful as a reference.
