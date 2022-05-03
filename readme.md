@@ -10,7 +10,6 @@ Example use cases:
 * The component is called "Splits Completed" in the "Information" group.
 * To add an ignored split, edit the cell to the right of the asterisk `*`.
 * To delete an ignored split, click the cell to the left of the split name and press the `Delete` key (not backspace!).
-* The label won't update until you either start a run, split, undo a split, reset, restart livesplit, etc.
 * Split names to ignore are case-sensitive. If multiple splits have the same name, there is no way to differentiate them.
 
 ## Releases

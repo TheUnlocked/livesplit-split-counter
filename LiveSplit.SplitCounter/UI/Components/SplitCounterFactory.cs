@@ -31,6 +31,6 @@ namespace LiveSplit.UI.Components
         // GitHub or somewhere, you can ignore this.
         public string XMLURL => UpdateURL + "";
 
-        public Version Version => Version.Parse("1.0.0");
+        public Version Version => Version.Parse("1.0.1");
     }
 }

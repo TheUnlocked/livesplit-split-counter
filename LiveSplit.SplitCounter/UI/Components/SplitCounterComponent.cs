@@ -124,6 +124,7 @@ namespace LiveSplit.UI.Components
 
         public XmlNode GetSettings(XmlDocument document)
         {
+            IsDirty = true;
             return Settings.GetSettings(document);
         }
 
@@ -134,8 +135,8 @@ namespace LiveSplit.UI.Components
 
         public void SetSettings(XmlNode settings)
         {
-            Settings.SetSettings(settings);
             IsDirty = true;
+            Settings.SetSettings(settings);
         }
     }
 }
